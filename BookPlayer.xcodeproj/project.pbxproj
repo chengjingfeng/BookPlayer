@@ -66,6 +66,7 @@
 		41AD3DAB221C8FF400DC41E1 /* default-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41AD3DA8221C8FF400DC41E1 /* default-icon@3x.png */; };
 		41AD3DAC221C8FF400DC41E1 /* default-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41AD3DA9221C8FF400DC41E1 /* default-icon@2x.png */; };
 		41AD3DAD221C8FF400DC41E1 /* default-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41AD3DAA221C8FF400DC41E1 /* default-icon.png */; };
+		41AD3DAF221E678600DC41E1 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD3DAE221E678600DC41E1 /* PlusViewController.swift */; };
 		41B2A5DA21CAE42600917584 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B2A5D821CAE42600917584 /* Settings.storyboard */; };
 		41B2A5DC21CAEE0E00917584 /* PlayerSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A5DB21CAEE0E00917584 /* PlayerSettingsViewController.swift */; };
 		41B2A5DE21CAF20E00917584 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A5DD21CAF20E00917584 /* ThemesViewController.swift */; };
@@ -211,6 +212,7 @@
 		41AD3DA8221C8FF400DC41E1 /* default-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon@3x.png"; sourceTree = "<group>"; };
 		41AD3DA9221C8FF400DC41E1 /* default-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon@2x.png"; sourceTree = "<group>"; };
 		41AD3DAA221C8FF400DC41E1 /* default-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon.png"; sourceTree = "<group>"; };
+		41AD3DAE221E678600DC41E1 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		41B2A5D921CAE42600917584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
 		41B2A5DB21CAEE0E00917584 /* PlayerSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSettingsViewController.swift; sourceTree = "<group>"; };
 		41B2A5DD21CAF20E00917584 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
@@ -499,6 +501,7 @@
 				4142964721F2E2BA004356DA /* ThemeCellView.swift */,
 				41AD3DA6221C850F00DC41E1 /* IconCellView.swift */,
 				41AD3DA2221C7DCE00DC41E1 /* IconsViewController.swift */,
+				41AD3DAE221E678600DC41E1 /* PlusViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -830,6 +833,7 @@
 			files = (
 				410D0FF11EDF659900A52EB9 /* PlayerManager.swift in Sources */,
 				D367F7681FA2A6F000FEDB37 /* Constants.swift in Sources */,
+				41AD3DAF221E678600DC41E1 /* PlusViewController.swift in Sources */,
 				41B2A5F121CD857800917584 /* AddCellView.swift in Sources */,
 				C30EEEC12079645C00A4ED33 /* PlayerMetaViewController.swift in Sources */,
 				69225C4F2159C2650004739E /* BookSortService+SortError+PlayListSortOrder.swift in Sources */,
