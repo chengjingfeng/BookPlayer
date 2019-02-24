@@ -23,8 +23,6 @@ enum Constants {
 
         case rewindInterval = "userSettingsRewindInterval"
         case forwardInterval = "userSettingsForwardInterval"
-
-        case artworkJumpControlsUsed = "userSettingsArtworkJumpControlsUsed"
     }
 
     enum SmartRewind: TimeInterval {
