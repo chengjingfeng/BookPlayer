@@ -12,4 +12,5 @@ struct Icon: Codable {
     var id: String
     var title: String
     var imageName: String
+    var locked: Bool
 }

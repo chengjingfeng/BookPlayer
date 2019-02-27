@@ -8,7 +8,8 @@
         "darkPrimary": "FAFBFC",
         "darkSecondary": "8F8E94",
         "darkAccent": "459EEC",
-        "darkBackground": "202225"
+        "darkBackground": "202225",
+        "locked": false
     },
     {
         "title": "Default / Pure Black",
@@ -19,7 +20,8 @@
         "darkPrimary": "FAFBFC",
         "darkSecondary": "8F8E94",
         "darkAccent": "459EEC",
-        "darkBackground": "000000"
+        "darkBackground": "000000",
+        "locked": false
     },
     {
         "title": "Ayu",
@@ -30,6 +32,7 @@
         "darkPrimary": "EDECEA",
         "darkSecondary": "667380",
         "darkAccent": "FFCC66",
-        "darkBackground": "212733"
+        "darkBackground": "212733",
+        "locked": true
     }
 ]

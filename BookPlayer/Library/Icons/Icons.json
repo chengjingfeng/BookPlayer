@@ -2,11 +2,13 @@
     {
         "id": "Default",
         "title": "Default",
-        "imageName": "default-icon"
+        "imageName": "default-icon",
+        "locked": false
     },
     {
         "id": "Retro",
         "title": "Retro",
-        "imageName": "retro-icon"
+        "imageName": "retro-icon",
+        "locked": true
     }
 ]

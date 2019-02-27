@@ -55,6 +55,7 @@ extension IconsViewController: UITableViewDataSource {
 
         cell.titleLabel.text = item.title
         cell.iconImageView.image = UIImage(named: item.imageName)
+        cell.isLocked = item.locked && !UserDefaults.standard.bool(forKey: Constants.UserDefaults.plusUser.rawValue)
 
         let currentAppIcon = UserDefaults.standard.string(forKey: Constants.UserDefaults.appIcon.rawValue) ?? "Default"
 
@@ -68,9 +69,19 @@ extension IconsViewController: UITableViewDataSource {
 
 extension IconsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? IconCellView else { return }
+
+        defer {
+            tableView.reloadData()
+        }
+
+        guard !cell.isLocked else {
+            return
+        }
+
         let item = self.icons[indexPath.row]
+
         self.changeIcon(to: item.id)
-        tableView.reloadData()
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
